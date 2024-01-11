@@ -1,0 +1,75 @@
+.container-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.card-img {
+  height: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-img-reduce {
+  width: 70%;
+}
+
+.logo {
+  height: 3em;
+}
+
+.bg-trans {
+  background-color: white;
+}
+
+.footer {
+  display: block;
+}
+
+.socmed {
+  width: 2em;
+}
+
+.to-back {
+  position: fixed;
+  z-index: 0;
+}
+
+.to-front {
+  z-index: 1;
+}
+
+.container-hero {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.hero-text {
+  width: 70%;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu:hover {
+  background-color: rgba(0, 0, 0, 0.057);
+  color: white;
+}
